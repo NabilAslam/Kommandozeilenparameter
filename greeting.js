@@ -7,7 +7,7 @@ const args = process.argv;
 
 
 let name = args[2]
-let alter = args[3]
+let alter = Number(args[3])
 let stadt = args[4]
 
 // The message
